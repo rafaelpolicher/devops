@@ -1,0 +1,70 @@
+comandos linux mais importantes
+
+cd: Ocomando cd permite que você navegue em um diretório
+
+digite: cd “nome do diretório”/
+
+ls: usando o ls permite a visualização dos arquivos que há no diretório que você está
+
+mkdir: o mkdir serve para que você crie uma nova pasta, para visualizar se ela foi criada digite “ls”
+mkdir “nome do arquivo”
+Observação se o nome escolhido estiver espaço é necessário ser colocado aspas, exemplo “nome do arquivo”
+Da mesma maneira, se quiser deletar a pasta criada basta digitar rmdir “nome do arquivo”
+
+clear: este comando permite limpar toda tela que está digitada no terminal, apertando enter toda tela estará limpa
+
+cd ..: para voltar para outro diretório é só digitar cd ..
+
+apt: o apt é o sistema de gerenciamento de pacotes de programas que possui resolução automática de dependências entre pacotes, método fácil de instalação de pacotes, a facilidade de operação, permite atualizar facilmente sua distribuição, etc. Ele funciona através de linha de comando sendo bastante fácil de usar.
+
+sudo: permite executar um comando como o super usuário (root)
+Para fazer a instalação de algum aplicativo basta digitar “sudo apt-get install <nome do app>
+Para atualizar o sistema sudo apt install
+
+pwd: mostra em qual diretório você está caso precise ver.
+
+touch: permite que consiga criar um arquivo de texto dentro do arquivo que está.
+
+man: este comando pode ajudá-lo a entender o que outro comando significa e o que ele faz.
+
+–help: este comando permite uma visualização mais detalhada sobre ele, basta digitar <comando> –help
+
+sudo apt remove: desinstala algum pacote baixado e que deseje deletar, basta digitar sudo apt remove <nome do pacote>
+
+sudo apt upgrade: instala pacotes e atualiza o sistema
+
+O comando –help é diferente do manual, ele mostra uma versão mais detalhada do manual, se quiser algo mais completo utilize o –help.
+
+Principais Atalhos no Linux
+Ctrl+C: cancela o comando que está sendo executado.
+
+Ctrl+Z: Pausa o comando que está sendo executado, pode retornar “fg” ou “bg”.
+
+Ctrl+D: Fecha o terminal.
+
+Ctrl+W: Deleta uma palavra da linha que está escrevendo.
+
+Ctrl+U: Deleta toda a linha.
+
+!!: Repete o último comando que foi digitado.
+
+exit: Também fecha o terminal.
+
+Tab: permite que consiga completar uma palavra, é muito utilizado para facilitar e poupar tempo, caso tenha mais arquivos com a mesma palavra, o terminal irá mostrar estes arquivos e é necessário que você digite pelo menos uma letra diferente.
+
+Outros comandos:
+cal: abre o calendário.
+
+man ascii: mostra a tabela ascii.
+
+cmp: se listar dois arquivos o terminal irá comparar os dois.
+
+free: é possível ver a memória, poderá encontrar aplicações que estão consumindo mais memória, ideal para identificar fontes de problemas.
+
+history: é possível acessar um histórico dos comandos que foram utilizados.
+
+locate: encontra nome de arquivos de uma forma mais útil.
+
+passwd: é possível mudar a senha apenas pelo terminal, sem precisar ir nas configurações e perder tempo.
+
+shutdown: permite que você desligue o pc através do terminal, cuidado para não deixar nada sem salvar ou acabe esquecendo algo importante aberto.
